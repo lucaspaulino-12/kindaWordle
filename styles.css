@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+table {
+    table-layout: fixed; 
+    width: auto; 
+    border-spacing: 5px; 
+}
+
+table tr{
+    gap: 10px;
+}
+
+
+table tr td{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 18px;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+    border: 2px solid rgb(97, 97, 97);
+
+}
+
+tr, td {
+  padding: 10px;
+  text-align: center;
+  table-layout: fixed;
+
+    
+}
+
+#keyboard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+
+}
+
+button{
+    padding: 15px;
+    color: rgb(54, 54, 54);
+    background-color: rgb(168, 168, 168);
+    border: none;
+    border-radius: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover{
+
+}
+
